@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Agendamento</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <link href="https://fonts.cdnfonts.com/css/codec-pro" rel="stylesheet" />
+    <link href="https://fonts.cdnfonts.com/css/belleza" rel="stylesheet" />
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+    <style>
+      @import url("https://fonts.cdnfonts.com/css/codec-pro");
+      @import url("https://fonts.cdnfonts.com/css/belleza");
+    </style>
+  </head>
+  <body>
+    <section>
+      <div class="container">
+        <h3>Jussara Oliveira</h3>
+        <img src="./Logo agendamento.png" />
+        <p style="text-align: center">
+          Agendamento <br />
+          Rápido
+        </p>
+
+        <form
+          class="form-container"
+          id="formAgendamento"
+          action="/enviar"
+          method="POST"
+        >
+        
+          <div class="input">
+            <label for="service">Serviço: </label>
+            <select id="service" name="service" required>
+              <option value="">Selecione...</option>
+              <option value="mao">Manicure</option>
+              <option value="pe">Pedicure</option>
+              <option value="pemao">Pé e mão</option>
+              <option value="cabelo">Cabelo</option>
+            </select>
+            <br />
+          </div>
+
+          <div class="input">
+            <label for="date">Data: </label>
+            <input type="date" id="date" name="date" required />
+            <br />
+          </div>
+
+          <div class="input">
+            <label for="time">Hora: </label>
+            <input type="time" id="time" name="time" required />
+            <br />
+          </div>
+
+          <button type="submit">Agendar Horário</button>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <p
+        class="copy"
+        style="font-size: small; text-align: center; color: #e6d0b6"
+      >
+        © 2025 Jônatas Emanuel Batista
+      </p>
+    </footer>
+
+    <script src="script.js"></script>
+
+  </body>
+</html>
