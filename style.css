@@ -59,6 +59,8 @@ p {
   margin-bottom: 40px;
   width: 180px;
   background-color: transparent;
+  text-decoration: none;
+  color: #a4193d;
 }
 
 button {
@@ -114,3 +116,4 @@ button:hover {
     width: 100%;
   }
 }
+
