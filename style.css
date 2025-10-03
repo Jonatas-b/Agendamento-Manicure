@@ -53,12 +53,14 @@ p {
 #time {
   padding: 8px;
   border-radius: 8px;
-  border: solid 1px black;
+  border: solid 1px #a4193d;
   font-size: 12px;
   cursor: pointer;
   margin-bottom: 40px;
   width: 180px;
   background-color: transparent;
+  color: #a4193d;
+  background-color: #ffdfb9;
 }
 
 button {
@@ -114,5 +116,6 @@ button:hover {
     width: 100%;
   }
 }
+
 
 
