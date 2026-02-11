@@ -13,7 +13,7 @@
 ---
 
 <p align="center">
-  <img alt="Demonstração do projeto" src="Projetos para README/Agendamento Manicure.png" width="100%">
+  <img alt="Demonstração do projeto" src="Projetos para README/Agendamento Manicure (capa).png" width="100%">
 </p>
 
 ## 🚀 Tecnologias
